@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paralax</title>
+    <style type="text/css">
+    
+        body, html{
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo{
+            padding: 50px 80px;
+            text-align: justify;
+            background-color: white;
+        }
+
+        .conteudo h3{
+            text-transform: uppercase;
+            text-align: center;
+            color: #111;
+            
+        }
+
+        p{
+            margin-bottom: 10px;
+        }
+        /*-------------------------------*/
+        /*-------EFEITO PARALAX----------*/
+        /*-------------------------------*/
+        
+        .caixa1,
+        .caixa2,
+        .caixa3,
+        .caixa4{
+            position: relative;
+            height: 100%;
+            opacity: .7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+
+        .caixa1{
+            background-image: url(imagens/imagem1.jpg);         
+            }
+
+        .caixa2{
+            background-image: url(imagens/imagem2.jpg);
+        }
+
+        .caixa3{
+            background-image: url(imagens/imagem3.jpg);
+        }
+
+        .caixa4{
+            background-image: url(imagens/imagem4.jpg);
+        }
+
+        .conteúdo-titulo{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top:50%;      
+            text-align: center;
+
+        }
+
+        .titulo{
+            /*Colocar para configurar melhor deixando centralizado. No item .coneudo-titulo precisa 
+            estar com o width: 100%; e o left: 0; */
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            color:#fff;
+            background-color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="caixa1">
+        <div class="conteúdo-titulo">
+            <span class="titulo">Balloon Ride</span>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Paralax</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?</p>
+        </div>
+        <div class="caixa2">
+            <div class="conteúdo-titulo">
+                <span class="titulo">Taking the Road</span>
+            </div>
+        </div>
+        <div class="conteudo">
+            <h3>Paralax</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?</p>
+            </div>
+        <div class="caixa3">
+            <div class="conteúdo-titulo">
+                <span class="titulo">Sunshine</span>
+            </div>
+        </div>
+        <div class="conteudo">
+            <h3>Paralax</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit fugiat labore aut molestiae quod maxime quam quo possimus culpa, rem, iure consequatur ex molestias tempora. Obcaecati aliquid enim natus?</p>
+            </div>
+        <div class="caixa4">
+            <div class="conteúdo-titulo">
+                <span class="titulo">Mountains</span>
+            </div>
+        </div>    
+</body>
+</html>
